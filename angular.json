@@ -10,28 +10,6 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
-        "server": {
-  "builder": "@angular-devkit/build-angular:server",
-  "options": {
-    "outputPath": "dist/time-api/server",
-    "main": "src/server.ts",
-    "tsConfig": "tsconfig.server.json"
-  },
-  "configurations": {
-    "production": {
-      "outputHashing": "media",
-      "sourceMap": false,
-      "optimization": true
-    },
-    "development": {
-      "outputHashing": "none",
-      "sourceMap": true,
-      "optimization": false
-    }
-  },
-  "defaultConfiguration": "production"
-}
-,
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
