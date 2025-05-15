@@ -1,0 +1,28 @@
+
+<div class="container">
+
+    <div class="card">
+<h1 class="title">E-Charts</h1>
+
+      <h2 class="title">💸 Monthly Expense Visualizer</h2>
+  
+      <div class="controls">
+        <label for="chartType">Select Chart Type:</label>
+        <select id="chartType" [(ngModel)]="chartType" (change)="renderChart()">
+          <option value="bar">📊 Bar Chart (Monthly)</option>
+          <option value="pie">🥧 Pie Chart (Category Total)</option>
+          <option value="line">📈 Line Chart (Trends)</option>
+          <option value="area">📊 Area Chart (Category Trends)</option>
+       
+
+
+
+        </select>
+      </div>
+  
+      <div #chartContainer class="chart-container"></div>
+    </div>
+  </div>
+
+
+  

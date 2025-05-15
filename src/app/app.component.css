@@ -1,0 +1,31 @@
+nav {
+    background-color: #1e3a8a; /* deep blue */
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a {
+    color: #f1f5f9;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  nav a.active-link {
+    background-color: #3b82f6; /* bright blue */
+    color: #fff;
+  }
+  

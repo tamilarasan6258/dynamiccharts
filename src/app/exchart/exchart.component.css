@@ -1,0 +1,74 @@
+/* Full-page background and center content */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #e0f2fe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 40px 20px;
+  }
+  
+  .container {
+   
+    width: 100%;
+    /* max-width: 900px; */
+  }
+  
+  /* Card styling */
+  .card {
+    background: linear-gradient(135deg, #dbeafe, #e0f2fe);
+    /* background-color: #ffffff; */
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Title */
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1e3a8a;
+  }
+  
+  /* Controls */
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 8px 14px;
+    font-size: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    background-color: #f1f5f9;
+    transition: border 0.2s;
+  }
+  
+  select:hover {
+    border-color: #3b82f6;
+    cursor: pointer;
+  }
+  
+  label {
+    font-weight: 500;
+  }
+  
+  /* Chart area */
+  .chart-container {
+    width: 100%;
+    height: 450px;
+  }
+  
